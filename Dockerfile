@@ -7,7 +7,7 @@ WORKDIR /code
 COPY . .
 
 # install from local file
-RUN pip install .
+RUN pip install --editable .
 
 # run app
 CMD ./entrypoint.sh
