@@ -32,6 +32,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     install_requires=[
+        'aiohttp==0.21.5',
         'bcrypt',
         'Flask==0.12.2',
         'Flask-JWT==0.3.2',
