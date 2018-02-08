@@ -22,7 +22,7 @@ class Config(BaseConfig):
     }
     JENKINS_PARAMETER_MAP = {
         'cluster_name': 'STACK_NAME',
-        'cluster_uuid': 'KQUEEN_BUILD_ID'
+        'cluster_uuid': 'OPENSTACK_API_CLIENT'
     }
     JENKINS_USERNAME = None
     JENKINS_PASSWORD = None
