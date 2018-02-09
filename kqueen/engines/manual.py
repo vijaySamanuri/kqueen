@@ -2,6 +2,9 @@ from .base import BaseEngine
 from kqueen.config import current_config
 from kqueen.kubeapi import KubernetesAPI
 
+import logging
+
+logger = logging.getLogger(__name__)
 config = current_config()
 
 
