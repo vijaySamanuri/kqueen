@@ -183,3 +183,8 @@ DEMOs
 
 .. image:: https://img.youtube.com/vi/xHydnJGcs2k/0.jpg
    :target: https://youtu.be/xHydnJGcs2k
+
+**Network policy management in KQueen**
+
+.. image:: https://img.youtube.com/vi/MYXFI75Fm10/0.jpg
+   :target: https://youtu.be/MYXFI75Fm10
