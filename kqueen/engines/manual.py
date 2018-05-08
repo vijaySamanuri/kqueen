@@ -22,7 +22,12 @@ class ManualEngine(BaseEngine):
                 'type': 'yaml_file',
                 'label': 'Kubeconfig',
                 'validators': {
-                    'required': True
+                    'required': True,
+                    'yamlfile': [
+                        'apiVersion',
+                        'kind',
+                        'metadata'
+                    ]
                 }
             }
         }
